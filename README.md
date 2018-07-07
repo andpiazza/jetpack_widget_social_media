@@ -32,26 +32,25 @@ Your options (ordered): order the _n options_ your wrote down in #1 as you'd lik
 1. On Jetpack's Widget / Sidebar config screen (reference [6]), ensure that the URL for each of the options you chose is empty otherwise the icons will show multiple times, and the order might be affected
 
 1. Repeat these following steps _for each platform you want to showcase_:
+_will add details, references and links to each step shortly_
     1. Copy the template code and paste on the bottom of your theme's functions.php file (link on reference [7]) 
     1. Change the name of the function to reflect the first / second / ... / _n-th_ option you ordered
     1. Change the URL destination matching that platform
-    D. Change the genericon descriptor to pull the right social media icon
-    E. Change the order in which each element will appear
-    F. Save the file and refresh the post URL in which the buttons show to verify the changes
-    G. Code didn't work? Tweak A-E as applicable until website reflects the final state you described in step #2
-
-_will add details, references and links to each step shortly_
+    1. Change the genericon descriptor to pull the right social media icon
+    1. Change the order in which each element will appear
+    1. Save the file and refresh the post URL in which the buttons show to verify the changes
+    1. Code didn't work? Tweak A-E as applicable until website reflects the final state you described in step #2
 
 1. Repeat step #4 _n_ times (= number of social media platforms you want to show)
 
 # References  <h2>
-[1] Github page for Genericons: https://github.com/Automattic/Genericons [_latest commit Nov 2016_]
-[2] Jetpack's documentation on Social Icons: https://jetpack.com/jetpack_support_tag/social-media/ (_talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_)
-[3] Which Social Media Icon Sets are the Best for Wordpress: https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/ > a review of options
-[4] Want to play with all the Genericons available options on your computer? Download the Genericons.ttf file from here: https://github.com/Automattic/Genericons/tree/master/genericons
-[5] All Genericons currently available: https://github.com/Automattic/Genericons/tree/master/source/svg
-[6] Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL: https://yourdomain.com/wp-admin/widgets.php
-[7] Edit functions.php file: replace "yourdomain" and "yourtheme" with the proper names on this URL https://yourdomain.com/wp-admin/theme-editor.php?file=functions.php&theme=yourtheme
+1. Github page for Genericons: https://github.com/Automattic/Genericons [_latest commit Nov 2016_]
+1. Jetpack's documentation on Social Icons: https://jetpack.com/jetpack_support_tag/social-media/ (_talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_)
+1. Which Social Media Icon Sets are the Best for Wordpress: https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/ > a review of options
+1. Want to play with all the Genericons available options on your computer? Download the Genericons.ttf file from here: https://github.com/Automattic/Genericons/tree/master/genericons
+1. All Genericons currently available: https://github.com/Automattic/Genericons/tree/master/source/svg
+1. Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL: https://yourdomain.com/wp-admin/widgets.php
+1. Edit functions.php file: replace "yourdomain" and "yourtheme" with the proper names on this URL https://yourdomain.com/wp-admin/theme-editor.php?file=functions.php&theme=yourtheme
 
 # Coming soon - stay tuned  <h2>
 * How to resize social icons
