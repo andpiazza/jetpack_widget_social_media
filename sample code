@@ -1,0 +1,80 @@
+/* Courtesy of Andre Piazza 2018 */
+/* Sample file containing the template customized for the following social networks:  */
+/* Instagram, LinkedIn (Company), Youtube, Pinterest (alternate icon), RSS feed  */
+/* Important: remember to keep the URLs empty on Jetpack Widget configurator */
+/* otherwise the items will show multiple times and the order will be affected */
+
+/* Order Instagram as first icon  */
+function jetpackme_instagram_icon( $html_array ) {
+    return
+        $html_array +
+        array(
+            13 =>    // This key can be modified to change the order the new item will appear in the list
+                '<a title="" '
+                . 'href="https://instagram.com/acme" '
+                . 'class="genericon genericon-instagram" target="_blank">'
+                . '<span class="screen-reader-text">Acme on Instagram</span></a>'
+        );
+}
+add_filter( 'jetpack_social_media_icons_widget_array', 'jetpackme_instagram_icon' );
+
+/* Add LinkedIn as the third icon, links to LinkedIn Company URL */
+function jetpackme_linkedin_company_icon( $html_array ) {
+    return
+        $html_array +
+        array(
+            23 =>    // This key can be modified to change the order the new item will appear in the list
+                '<a title="" '
+                . 'href="https://www.linkedin.com/company/acme" '
+                . 'class="genericon genericon-linkedin" target="_blank">'
+                . '<span class="screen-reader-text">Acme on LinkedIn</span></a>'
+        );
+}
+add_filter( 'jetpack_social_media_icons_widget_array', 'jetpackme_linkedin_company_icon' );
+
+/* Order YouTube as fifth icon  */
+function jetpackme_youtube_icon( $html_array ) {
+    return
+        $html_array +
+        array(
+            33 =>    // This key can be modified to change the order the new item will appear in the list
+                '<a title="" '
+                . 'href="https://www.youtube.com/channel/acme" '
+                . 'class="genericon genericon-youtube" target="_blank">'
+                . '<span class="screen-reader-text">Acme on Youtube</span></a>'
+        );
+}
+add_filter( 'jetpack_social_media_icons_widget_array', 'jetpackme_youtube_icon' );
+
+/* Add Pinterest Alternate icon  */
+function jetpackme_pinterest_alt_icon( $html_array ) {
+    return
+        $html_array +
+        array(
+            43 =>    // This key can be modified to change the order the new item will appear in the list
+                '<a title="" '
+                . 'href="https://pinterest.com/acme" '
+                . 'class="genericon genericon-pinterest-alt" target="_blank">'
+/* if you prefer the regular Pinterest icon instead, delete "-alt" for the line above */                  
+                . '<span class="screen-reader-text">Acme on Pinterest</span></a>'
+        );
+}
+add_filter( 'jetpack_social_media_icons_widget_array', 'jetpackme_pinterest_alt_icon' );
+
+/* Add RSS Feed icon as the last */
+function jetpackme_feed_icon( $html_array ) {
+    return
+        $html_array +
+        array(
+            83 =>    // This key can be modified to change the order the new item will appear in the list
+                '<a title="" '
+                . 'href="https://acme.com/feed.xml" '
+                . 'class="genericon genericon-feed" target="_blank">'
+                . '<span class="screen-reader-text">Acme's Feed</span></a>'
+        );
+}
+add_filter( 'jetpack_social_media_icons_widget_array', 'jetpackme_feed_icon' );
+
+
+
+
