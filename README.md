@@ -28,7 +28,9 @@ Your options (write down): _n options_
 Standard (as ordered by on Jetpack widget):  ____ , ____ , ____ 
 Your options (ordered): order the _n options_ your wrote down in #1 as you'd like them to show on your widget / sidebar
 
-3. Repeat these following steps _for each platform you want to showcase_:
+3. On Jetpack's Widget / Sidebar config screen, ensure that the URL for each of the options you chose is empty otherwise the icons will show multiple times, and the order might be affected
+
+4. Repeat these following steps _for each platform you want to showcase_:
 A. Copy the template code and past on your theme's functions.php file 
 B. Change the name of the function to reflect the first / second / ... / _n-th_ option you ordered
 C. Change the URL destination matching that platform
@@ -37,9 +39,9 @@ E. Change the order in which each element will appear
 F. Save the file and refresh the post URL in which the buttons show to verify the changes
 G. Code didn't work? Tweak A-E as applicable until website reflects the final state you described in step #2
 
-_will add details to each step shortly_
+_will add details, references and links to each step shortly_
 
-4. Repeat step #3 _n_ times (= number of social media platforms you want to show)
+5. Repeat step #4 _n_ times (= number of social media platforms you want to show)
 
 **Coming soon - stay tuned**
 - How to resize social icons
