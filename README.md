@@ -15,23 +15,23 @@ These are areas in which Jetpack has dropped the ball in a major way for so many
 - People that want to link to multiple URLs on the same social platform
 
 **The Solution**
-This is code that could be applied to functions.php file in virtually any Wordpress theme out there.
+This is code to apply to functions.php file in virtually any Wordpress theme out there.
 It is modular: you choose which lines you need to add to make it work for you, custom. Just follow the **Instructions** below.
 
 **Instructions - How to Customize this Code**
 1. Choose which social icons you want to showcase
-Standard (configured on Jetpack widget): ____ , ____ , ____  
-Other options (available on Jetpack's Genericons): ____ , ____ , ____ 
-Your options (write down): _n options_
+Standard (configured on Jetpack widget): Facebook, Twitter, Instagram, Pinterest, LinkedIn, GitHub, YouTube, Vimeo, Wordpress.org, Flickr, Google+ (per reference [2])
+All options (available on Jetpack's Genericons): refer to the list of files on reference [5] 
+Write down your options, in order (_n options_)
 
 2. Determine the order in which you want the icons to appear on the widget / sidebar
-Standard (as ordered by on Jetpack widget):  ____ , ____ , ____ 
+Standard order (per Jetpack widget): Facebook, Twitter, Instagram, Pinterest, LinkedIn (profiles only), Github, YouTube, Vimeo, Wordpress.org, Flickr, Google+ (per reference [2])
 Your options (ordered): order the _n options_ your wrote down in #1 as you'd like them to show on your widget / sidebar
 
-3. On Jetpack's Widget / Sidebar config screen, ensure that the URL for each of the options you chose is empty otherwise the icons will show multiple times, and the order might be affected
+3. On Jetpack's Widget / Sidebar config screen (reference [6]), ensure that the URL for each of the options you chose is empty otherwise the icons will show multiple times, and the order might be affected
 
 4. Repeat these following steps _for each platform you want to showcase_:
-A. Copy the template code and past on your theme's functions.php file 
+A. Copy the template code and paste on the bottom of your theme's functions.php file (link on reference [7]) 
 B. Change the name of the function to reflect the first / second / ... / _n-th_ option you ordered
 C. Change the URL destination matching that platform
 D. Change the genericon descriptor to pull the right social media icon
@@ -42,6 +42,15 @@ G. Code didn't work? Tweak A-E as applicable until website reflects the final st
 _will add details, references and links to each step shortly_
 
 5. Repeat step #4 _n_ times (= number of social media platforms you want to show)
+
+**References**
+[1] Github page for Genericons: https://github.com/Automattic/Genericons [_latest commit Nov 2016_]
+[2] Jetpack's documentation on Social Icons: https://jetpack.com/jetpack_support_tag/social-media/ (_talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_)
+[3] Which Social Media Icon Sets are the Best for Wordpress: https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/ > a review of options
+[4] Want to play with all the Genericons available options on your computer? Download the Genericons.ttf file from here: https://github.com/Automattic/Genericons/tree/master/genericons
+[5] All Genericons currently available: https://github.com/Automattic/Genericons/tree/master/source/svg
+[6] Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL: https://yourdomain.com/wp-admin/widgets.php
+[7] Edit functions.php file: replace "yourdomain" and "yourtheme" with the proper names on this URL https://yourdomain.com/wp-admin/theme-editor.php?file=functions.php&theme=yourtheme
 
 **Coming soon - stay tuned**
 - How to resize social icons
