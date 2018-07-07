@@ -1,4 +1,4 @@
-# jetpack_widget_social_media
+# jetpack_widget_social_media <h1>
 
 # What is This <h2>
 A project to help Wordpress / Jetpack user customize the social media icons shown and their order in the sidebar.
