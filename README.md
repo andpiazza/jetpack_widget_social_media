@@ -1,25 +1,25 @@
-# jetpack_widget_social_media <h1>
+# jetpack_widget_social_media
 
-# What is This <h2>
+## What is This
 A project to help Wordpress / Jetpack user customize the social media icons shown and their order in the sidebar.
 
-# Problems this code solves for Wordpress Jetpack users  <h2>
+## Problems this code solves for Wordpress Jetpack users
 These are areas in which Jetpack has dropped the ball in a major way for so many years:
 * Add LinkedIn icon to link to a LinkedIn company account (instead of a LinkedIn user profile)
 * Re-order social icons
 * Add multiple social icons belonging to the same platform
 
-# Who's This For  <h2>
+## Who's This For
 * People that want to order the social icons but haven't been able to
 * People that want to increment options not provided with Jetpack's widget
 * People that want LinkedIn icon to link to LinkedIn company profile
 * People that want to link to multiple URLs on the same social platform
 
-# The Solution  <h2>
+## The Solution
 This is code to apply to functions.php file in virtually any Wordpress theme out there.
 It is modular: you choose which lines you need to add to make it work for you, custom. Just follow the **Instructions** below.
 
-# Instructions - How to Customize this Code  <h2>
+## Instructions - How to Customize this Code
 1. Choose which social icons you want to showcase
 Standard (configured on Jetpack widget): Facebook, Twitter, Instagram, Pinterest, LinkedIn, GitHub, YouTube, Vimeo, Wordpress.org, Flickr, Google+ (per reference [2])
 All options (available on Jetpack's Genericons): refer to the list of files on reference [5] 
@@ -43,7 +43,7 @@ _will add details, references and links to each step shortly_
 
 1. Repeat step #4 _n_ times (= number of social media platforms you want to show)
 
-# References  <h2>
+## References
 1. Github page for Genericons: https://github.com/Automattic/Genericons [_latest commit Nov 2016_]
 1. Jetpack's documentation on Social Icons: https://jetpack.com/jetpack_support_tag/social-media/ (_talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_)
 1. Which Social Media Icon Sets are the Best for Wordpress: https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/ > a review of options
@@ -52,9 +52,9 @@ _will add details, references and links to each step shortly_
 1. Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL: https://yourdomain.com/wp-admin/widgets.php
 1. Edit functions.php file: replace "yourdomain" and "yourtheme" with the proper names on this URL https://yourdomain.com/wp-admin/theme-editor.php?file=functions.php&theme=yourtheme
 
-# Coming soon - stay tuned  <h2>
+## Coming soon - stay tuned
 * How to resize social icons
 * How to create your own custom icons, or add the icons that Jetpack failed to add on Genericons like: Medium, Apple Podcasts, Google Podcast, and others 
 
-# Want to provide feedback or contribute?  <h1>
+## Want to provide feedback or contribute?
 Leave a comment! Thanks for reading and using this.
