@@ -1,6 +1,5 @@
 # jetpack_widget_social_media
 
-## What is This
 A project to help Wordpress / Jetpack user customize the social media icons shown and their order in the sidebar.
 
 ## Problems this code solves for Wordpress Jetpack users
@@ -44,12 +43,12 @@ _will add details, references and links to each step shortly_
 1. Repeat step #4 _n_ times (= number of social media platforms you want to show)
 
 ## References
-1. Github page for Genericons: https://github.com/Automattic/Genericons [_latest commit Nov 2016_]
-1. Jetpack's documentation on Social Icons: https://jetpack.com/jetpack_support_tag/social-media/ (_talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_)
-1. Which Social Media Icon Sets are the Best for Wordpress: https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/ > a review of options
-1. Want to play with all the Genericons available options on your computer? Download the Genericons.ttf file from here: https://github.com/Automattic/Genericons/tree/master/genericons
-1. All Genericons currently available: https://github.com/Automattic/Genericons/tree/master/source/svg
-1. Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL: https://yourdomain.com/wp-admin/widgets.php
+1. [Github page for Genericons](https://github.com/Automattic/Genericons) (latest commit Nov 2016)
+1. [Jetpack's documentation on Social Icons](https://jetpack.com/jetpack_support_tag/social-media/) _talk about being outdated: dates back to 2015. In social media terms, that's the equivalent of the Middle Age_
+1. [Which Social Media Icon Sets are the Best for Wordpress](https://itxdesign.com/which-social-media-icon-sets-are-the-best-for-wordpress/) > an overview of font and implementation options
+1. [Want to play with all the Genericons available options on your computer?](https://github.com/Automattic/Genericons/tree/master/genericons) > Download the Genericons.ttf file from here
+1. [All Genericons currently available](https://github.com/Automattic/Genericons/tree/master/source/svg)
+1. Jetpack's Widget / Sidebar config: replace "yourdomain" on this URL https://yourdomain.com/wp-admin/widgets.php
 1. Edit functions.php file: replace "yourdomain" and "yourtheme" with the proper names on this URL https://yourdomain.com/wp-admin/theme-editor.php?file=functions.php&theme=yourtheme
 
 ## Coming soon - stay tuned
